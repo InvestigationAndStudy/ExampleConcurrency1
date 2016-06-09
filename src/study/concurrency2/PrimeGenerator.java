@@ -1,4 +1,4 @@
-package stydy.concurrency2;
+package study.concurrency2;
 
 public class PrimeGenerator extends Thread {
 

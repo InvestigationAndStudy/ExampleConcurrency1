@@ -1,4 +1,4 @@
-package study.concurrency;
+package study.concurrency0;
 
 public class Calculator implements Runnable {
 	private int number;
