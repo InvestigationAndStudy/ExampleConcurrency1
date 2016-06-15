@@ -1,4 +1,4 @@
-package study.cuncurrency8;
+package study.concurrency8;
 
 import java.util.concurrent.TimeUnit;
 
