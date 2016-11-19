@@ -2,9 +2,9 @@ package study.concurrency8;
 
 import java.util.concurrent.TimeUnit;
 
-public class Core {
+public class UnsafeTaskCore {
 	public static void main(String[] args) {
-		SafeTask task = new SafeTask();
+		UnsafeTask task = new UnsafeTask();
 		for (int i = 0; i < 10; i++) {
 			Thread thread = new Thread(task);
 			thread.start();
